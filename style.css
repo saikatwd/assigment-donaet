@@ -1,0 +1,101 @@
+/*goole fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/donation13.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    opacity: .8;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 8vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+
+}
+
+.header-content p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.donate-button {
+    padding: 20px 30px;
+    background: tomato;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-size: larger;
+
+}
+
+.donate-today {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.donate-today h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.donate-today p {
+    color: gray;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row {
+    margin: 10px auto;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.donate-tk {
+    flex-basis: 15%;
+    background: #e2dada;
+    margin-bottom: 3%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(66, 63, 63);
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    margin: 10px 0;
+}
