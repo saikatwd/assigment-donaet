@@ -4,7 +4,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 
 header {
@@ -23,6 +23,7 @@ header {
 
 a {
     text-decoration: none;
+
 }
 
 .header-content {
@@ -43,7 +44,6 @@ a {
     margin: 10px 0 40px;
     font-size: 14px;
     color: #fff;
-
 }
 
 .donate-button {
@@ -51,8 +51,7 @@ a {
     background: tomato;
     border-radius: 15px;
     color: whitesmoke;
-    font-size: larger;
-
+    font-weight: 600;
 }
 
 .donate-today {
@@ -60,6 +59,7 @@ a {
     margin: auto;
     text-align: center;
     padding-top: 100px;
+
 }
 
 .donate-today h1 {
@@ -94,8 +94,113 @@ a {
     color: rgb(66, 63, 63);
 }
 
+.select-amount {
+    border: 1px solid red;
+}
+
 h2 {
     text-align: center;
     font-weight: 700;
     margin: 10px 0;
+}
+
+.donate-area p {
+    font-size: 3vmin;
+}
+
+.line {
+    width: 400px;
+    height: 4px;
+    background: rgb(148, 134, 134);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.donate-plan {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.donate-plan h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.donate-plan p {
+    color: gray;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.donate-box {
+    margin: 10px auto;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.food {
+    flex-basis: 31%;
+    background: #f1dddd;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
+}
+
+.shelter {
+    flex-basis: 31%;
+    background: #93e080;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
+}
+
+.education {
+    flex-basis: 31%;
+    background: #b2d66e;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 244, 244);
+}
+
+.heading {
+    text-align: center;
+    margin: 5px;
+    font-weight: 600;
+}
+
+.our-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.our-gallery img {
+    width: 460px;
+    height: 540px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.our-gallery img:hover {
+    background-color: rgb(214, 55, 15);
+    cursor: pointer;
 }
